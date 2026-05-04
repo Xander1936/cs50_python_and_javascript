@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute</title>
+    <!-- Specificity: 1. inline, 2. id, 3. class, 4. type -->
+    <style>
+        a {
+            color: blue;
+        }
+        <!-- Specify that only the url in the square's bracket in brown -->
+        a[href="https://facebook.com"] {
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://google.com">google</a></li>
+        <li><a href="https://facebook.com">facebook</a></li>
+        <li><a href="https://amazon.com">amazon</a></li>
+    </ul>
+</body>
+</html>
