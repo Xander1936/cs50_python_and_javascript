@@ -12,8 +12,6 @@ names = ["Ron", "Hermione", "Harry", "Draco" ]
 for name in names:
     print(name)
 
-# print(names)
-
 # Loop throw characters in a name
 name = "Harry"
 
