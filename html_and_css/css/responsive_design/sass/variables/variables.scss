@@ -1,0 +1,21 @@
+// In Sass all the variables begin with the Dollar ($) sign. <>
+// First install Sass.
+// Then in the terminal convert: 
+// sass variables.scss:variables.css
+// sass --watch variables.scss:variables.css
+
+$color: red;
+
+div > ul {
+    
+}
+
+ul  {
+    font-size: 14px;
+    color: $color;
+}
+
+ol {
+    font-size: 18px;
+    color: $color;
+}
