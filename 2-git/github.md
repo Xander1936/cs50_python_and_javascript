@@ -23,8 +23,10 @@ Steps to publish your code on GitHub:
 - Git Branching:
    -git branch: reveals all the branches on github
    - git checkout -b style : create and move to the new branch named style
-   - git checkout style : style branch
-   - git checkout master or main : go back to the  master or the main branch.
+   - git branch     output : * main branch  and * style branch
+   - Switch into different branches: 
+     *  git checkout main
+     *  git checkout master or style: go back to the  master or the main branch.
    - git commit -am "message"
 
 
