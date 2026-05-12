@@ -1,0 +1,16 @@
+{% extends "tasks/layout.html" %}
+
+{% comment %} Template in heritance: use the layout.html template
+except inside the block body, includes the unordered list. {% endcomment %}
+{% comment %} Create a table with cmd: python manage.py migrate {% endcomment %}
+{% block body %}
+        <h1>Tasks</h1>
+        <ul>
+            {% for task in tasks %}
+                <li> {{ task }} </li>
+            {% empty %}
+                <li>No Tasks.</li>
+            {% endfor %}
+        </ul>
+        <a href="{% url 'tasks:add' %}">Add a New Task</a>
+{% endblock %}
